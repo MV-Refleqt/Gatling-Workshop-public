@@ -16,3 +16,10 @@ It includes:
 * sample [Simulation](https://gatling.io/docs/gatling/reference/current/general/concepts/#simulation) class,
   demonstrating sufficient Gatling functionality
 * proper source file layout
+
+## Getting started
+Download and install the required dependencies using the included maven wrapper  
+`./mvnw clean install` or on Windows `mvnw.cmd clean install`  
+  
+The Simulation Engine and Recorder can be found and executed in `src/test/java` or from the command line with:  
+`mvnw gatling:recorder` and `mvnw gatling:test`  
